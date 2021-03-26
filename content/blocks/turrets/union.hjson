@@ -1,0 +1,88 @@
+type: itemTurret
+name: Вихрь
+description: улучшеная версия Урагана
+targetAir: true
+targetGround: true
+health: 5500
+size: 7
+inaccuracy: 10
+reloadTime: 3
+recoil: 16
+rotatespeed: 5
+shots: 5
+shotWidth: 4
+range: 240
+maxAmmo: 35
+ammoTypes: {
+thorium: {
+type: BasicBulletType
+speed: 10
+lifetime: 22
+pierce: false
+damage: 20
+width: 10
+height: 20
+ammoMultiplier: 2
+fragBullets: 6
+fragBullet: {
+type: BasicBulletType
+speed: 15
+lifetime: 4
+pierce: true
+damage: 10
+width: 2
+height: 4
+}
+}
+plastanium: {
+type: BasicBulletType
+speed: 15
+lifetime: 16
+pierce: false
+damage: 40
+width: 7
+height: 20
+ammoMultiplier: 4
+fragBullets: 2
+fragBullet: {
+type: BasicBulletType
+speed: 15
+lifetime: 8
+pierce: true
+damage: 20
+width: 5
+height: 10
+}
+}
+nobil: {
+type: BasicBulletType
+speed: 20
+lifetime: 13
+pierce: false
+damage: 74
+width: 15
+height: 30
+ammoMultiplier: 5
+homingPower: 0.4
+fragBullets: 4
+fragBullet: {
+type: BasicBulletType
+speed: 15
+lifetime: 6
+pierce: true
+damage: 10
+width: 5
+height: 10
+homingPower: 0.1
+}
+}},
+requirements: [
+copper/3855
+titanium/2250
+plastanium/1830
+nobil/1550
+surge-alloy/1200
+]
+shootSound: shootBig
+category: turret
+research: fusion

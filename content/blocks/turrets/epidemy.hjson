@@ -1,0 +1,59 @@
+type: itemTurret
+name: Эпидемия
+description: турель стреляющая споровым снарядом ослабляющим врагов в области
+targetAir: true
+targetGround: true
+health: 2350
+size: 5
+inaccuracy: 0
+reloadTime: 1250
+recoil: 20
+rotatespeed: 3
+shots: 1
+range: 250
+ammoPerShot: 75
+maxAmmo: 150
+ammoTypes: {
+spore-pod: {
+type: BasicBulletType
+speed: 5
+lifetime: 50
+pierce: false
+damage: 1
+width: 20
+height: 20
+ammoMultiplier: 1
+status: slow
+status: sapped
+status: disarmed
+backColor: 665c9f
+frontColor: 665c9f
+lighting: 100
+fragBullets: 32
+fragBullet: {
+type: BasicBulletType
+speed: 2
+lifetime: 35
+backColor: 665c9f
+frontColor: 665c9f
+pierce: true
+damage: 1
+width: 10
+height: 10
+status: slow
+status: sapped
+status: disarmed
+lighting: 100
+}
+}
+},
+requirements: [
+copper/5500
+silicon/4000
+thorium/2600
+surge-alloy/2000
+kseno-alloy/1600
+]
+shootSound: shootBig
+category: turret
+research: fuse

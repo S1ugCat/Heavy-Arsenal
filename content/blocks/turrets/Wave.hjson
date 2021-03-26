@@ -1,0 +1,108 @@
+type: itemTurret
+name: Река
+description: улучшеная версия Потока
+targetAir: true
+targetGround: true
+health: 4750
+size: 7
+inaccuracy: 5
+reloadTime: 160
+recoil: 35
+burstSpacing: 2
+alternate: true
+rotatespeed: 4
+shots: 15
+range: 320
+maxAmmo: 50
+ammoTypes: {
+plastanium: {
+type: BasicBulletType
+damage: 60
+speed: 7
+lafetime: 70
+splashDamage: 35
+splashDamageRadius: 20
+pierce: false
+width: 10
+height: 20
+ammoMultiplier: 2
+backColor: ffffff
+frontColor: ffffff
+fragBullets: 6
+fragBullet: {
+type: BasicBulletType
+damage: 60
+speed: 4
+lafetime: 5
+width: 10
+height: 10
+backColor: ffffff
+frontColor: ffffff
+pierce: true
+homingPower: 0.05
+}
+}
+nobil: {
+type: BasicBulletType
+damage: 84
+speed: 6
+lafetime: 10
+pierce: false
+width: 15
+height: 25
+ammoMultiplier: 3
+backColor: ffffff
+frontColor: ffffff
+homingPower: 0.1
+homingrange: 80
+fragBullet: {
+type: BasicBulletType
+damage: 60
+speed: 2
+lafetime: 20
+width: 10
+height: 10
+backColor: ffffff
+frontColor: ffffff
+pierce: true
+homingPower: 0.2
+}
+}
+kseno-alloy: {
+type: BasicBulletType
+damage: 124
+speed: 6
+lafetime: 100
+pierce: true
+width: 20
+height: 30
+ammoMultiplier: 5
+status: slow
+pierce: false
+backColor: ffffff
+frontColor: ffffff
+fragBullet: {
+type: BasicBulletType
+damage: 60
+speed: 1
+lafetime: 60
+width: 10
+height: 10
+backColor: ffffff
+frontColor: ffffff
+pierce: false
+homingPower: 0.05
+status: slow
+}
+}},
+requirements: [
+lead/3660
+titanium/2500
+thorium/1220
+nobil/1050
+kseno-alloy/835
+surge-alloy/650
+]
+shootSound: shootBig
+category: turret
+research: fuse

@@ -1,0 +1,39 @@
+type: itemTurret
+name: Вирус
+description: турель со снарядом ослабляющим врага
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+inaccuracy: 0
+reloadTime: 1600
+recoil: 20
+rotatespeed: 3
+shots: 1
+range: 250
+ammoPerShot: 35
+maxAmmo: 50
+ammoTypes: {
+spore-pod: {
+type: BasicBulletType
+speed: 5
+lifetime: 50
+pierce: false
+damage: 2
+width: 20
+height: 20
+ammoMultiplier: 1
+status: slow
+status: sapped
+status: disarmed
+}
+},
+requirements: [
+titanium/859
+silicon/600
+nobil/225
+surge-alloy/135
+]
+shootSound: shootBig
+category: turret
+research: fuse
