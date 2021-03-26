@@ -1,0 +1,8 @@
+type: material
+name: нобиум
+description: материал обладающий сильными магнитными свойствами
+cost: 4
+flammability: 0
+radioactivity: 0.2
+color: ffffff
+research: surge-alloy

@@ -1,0 +1,8 @@
+type: material
+name: ксено сплав
+description: материал способный замедлять или ускорять работу разных приборов
+cost: 5
+flammability: 0
+radioactivity: 1.8
+color: 99f2c7
+research: nobil
