@@ -1,0 +1,35 @@
+type: "GenericCrafter", 
+name: "Синтезатор ксено сплава", 
+description: "Синтезирует ксено сплав из нобиума, титана и ториума", 
+outputItem:
+{item:"kseno-alloy","amount":2}, 
+size: 4, 
+hasPower: true, 
+hasItems: true, 
+hasLiquid: true, 
+craftTime: 60, 
+itemCapacity: 20
+updateEffect: none
+consumes: { 
+power: 18
+items: { 
+items: [
+nobil/2
+titanium/4
+thorium/3
+] 
+} 
+liquid: { 
+liquid: "water" , amount: 1
+} 
+}, 
+requirements: [ 
+ {item: lead, amount: 550} 
+ {item: graphite, amount: 420}
+ {item: titanium, amount: 670}
+ {item: silicon, amount: 620}
+ {item: nobil, amount: 250}
+ {item: surge-alloy, amount: 150}
+] 
+category: crafting 
+research: purifier

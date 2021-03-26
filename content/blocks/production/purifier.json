@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Расщепитель", 
+description: "отделяет нобиум от других метталов путём расщепления", 
+outputItem:
+{item:"nobil","amount":1}, 
+size: 3, 
+hasPower: true, 
+hasItems: true, 
+hasLiquid: true, 
+craftTime: 30, 
+itemCapacity: 10
+updateEffect: none
+consumes: { 
+power: 6
+items: { 
+items: [
+titanium/2
+copper/3
+] 
+} 
+liquid: { 
+liquid: "water" , amount: 1.7
+} 
+}, 
+requirements: [ 
+ {item: copper, amount: 350} 
+ {item: titanium, amount: 250}
+ {item: silicon, amount: 200}
+ {item: plastanium, amount: 150}
+] 
+category: crafting 
+research: plastanium-compressor

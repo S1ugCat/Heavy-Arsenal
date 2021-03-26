@@ -1,0 +1,20 @@
+type: MassDriver
+name: Электромагнитная пушка
+description: Улучшеная версия Электромагнитной катопульты, работает на большей дестанции с той же эффективностью
+health: 1250
+requirements: [
+titanium/450
+thorium/200
+nobil/100
+kseno-alloy/25
+    ],
+size: 5
+itemCapacity: 220
+reloadTime: 240
+range: 750
+consumes: {
+power: 5.5
+}
+category: distribution
+research: mass-driver
+
