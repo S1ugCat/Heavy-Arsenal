@@ -43,7 +43,7 @@ homingrange: 40
 backColor: ffffff
 frontColor: ffffff
 }
-kseno-alloy: {
+naturit: {
 type: BasicBulletType
 damage: 124
 speed: 5
@@ -52,7 +52,6 @@ pierce: true
 width: 20
 height: 30
 ammoMultiplier: 5
-status: slow
 pierce: false
 backColor: ffffff
 frontColor: ffffff
