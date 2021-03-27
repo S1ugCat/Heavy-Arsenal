@@ -48,11 +48,12 @@ lighting: 100
 }
 },
 requirements: [
-copper/5500
-silicon/4000
-thorium/2600
-surge-alloy/2000
-kseno-alloy/1600
+copper/5570
+silicon/4300
+thorium/2660
+naturit/2250
+surge-alloy/1830
+kseno-alloy/1550
 ]
 shootSound: shootBig
 category: turret
