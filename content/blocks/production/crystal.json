@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: "Кристализатор", 
+description: "выращивает Натурит из кристализованой криогенной жидкости и кусочков Натурита в песке", 
+outputItem:
+{item:"naturit","amount":2}, 
+size: 4, 
+hasPower: true, 
+hasItems: true, 
+hasLiquid: true, 
+craftTime: 30, 
+itemCapacity: 10
+updateEffect: none
+consumes: { 
+power: 6
+items: { 
+items: [
+sand/5
+] 
+} 
+liquid: { 
+liquid: "cryofluid" , amount: 1.7
+} 
+}, 
+requirements: [ 
+ {item: lead, amount: 550} 
+ {item: thorium, amount: 375}
+ {item: silicon, amount: 230}
+ {item: nobil, amount: 165}
+ {item: plastanium, amount: 120}
+] 
+category: crafting 
+research: plastanium-compressor
