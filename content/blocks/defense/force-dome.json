@@ -16,6 +16,7 @@ requirements: [
  {item: thorium, amount: 750}
  {item: silicon, amount: 530}
  {item: nobil, amount: 350}
+ {item: naturit, amount: 235}
  {item: kseno-alloy, amount: 120}
     ]
 consumes: {
