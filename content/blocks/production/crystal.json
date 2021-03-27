@@ -18,7 +18,7 @@ sand/5
 ] 
 } 
 liquid: { 
-liquid: "cryofluid" , amount: 1.7
+liquid: "cryofluid" , amount: 0.5
 } 
 }, 
 requirements: [ 
