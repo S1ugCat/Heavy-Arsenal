@@ -26,6 +26,8 @@ pierce: false
 width: 10
 height: 20
 ammoMultiplier: 2
+backColor: ffffff
+frontColor: ffffff
 }
 nobil: {
 type: BasicBulletType
@@ -38,6 +40,8 @@ height: 25
 ammoMultiplier: 3
 homingPower: 0.2
 homingrange: 40
+backColor: ffffff
+frontColor: ffffff
 }
 kseno-alloy: {
 type: BasicBulletType
@@ -50,6 +54,8 @@ height: 30
 ammoMultiplier: 5
 status: slow
 pierce: false
+backColor: ffffff
+frontColor: ffffff
 }},
 requirements: [
 copper/800
