@@ -33,7 +33,7 @@ width: 3
 height: 5
 }
 }
-thorium: {
+naturit: {
 type: BasicBulletType
 speed: 15
 lifetime: 12
