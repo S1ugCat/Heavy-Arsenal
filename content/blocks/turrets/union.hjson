@@ -75,6 +75,32 @@ width: 5
 height: 10
 homingPower: 0.1
 }
+}
+flameid: {
+type: BasicBulletType
+speed: 20
+lifetime: 12
+pierce: false
+damage: 65
+width: 12
+height: 25
+ammoMultiplier: 3
+backColor: ea8878
+frontColor: ea8878
+status: burning
+fragBullets: 5
+fragBullet: {
+type: BasicBulletType
+speed: 13
+lifetime: 5
+pierce: true
+damage: 12
+width: 3
+height: 5
+backColor: ea8878
+frontColor: ea8878
+status: burning
+}
 }},
 requirements: [
 copper/3855
