@@ -1,0 +1,8 @@
+type: material
+name: фламид
+description: невероятно твёрдый метал, способный остоватся горячим почти всегда.
+cost: 6
+flammability: 0.1
+radioactivity: 0.3
+color: ea8878
+research: nobil
