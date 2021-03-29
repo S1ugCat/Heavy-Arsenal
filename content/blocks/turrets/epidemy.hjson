@@ -11,10 +11,10 @@ recoil: 20
 rotatespeed: 3
 shots: 1
 range: 250
-ammoPerShot: 75
+ammoPerShot: 30
 maxAmmo: 150
 ammoTypes: {
-spore-pod: {
+naturit: {
 type: BasicBulletType
 speed: 5
 lifetime: 50
