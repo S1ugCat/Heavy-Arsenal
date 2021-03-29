@@ -72,7 +72,7 @@ homingPower: 0.1
 homingRange: 50
 }
 }
-nobil: {
+flameid: {
 type: missileBulletType
 damage: 10
 speed: 6
@@ -85,19 +85,20 @@ height: 20
 ammoMultiplier: 2
 homingPower: 1
 homingRange: 60
-fragBullets: 8
+fragBullets: 5
 fragBullet: {
 type: missileBulletType
 damage: 20
 speed: 8
-lafetime: 10
+lafetime: 7
 splashDamage: 20
 splashDamageRadius: 24
 pierce: false
 width: 5
 height: 10
-homingPower: 0.7
+homingPower: 0.4
 homingRange: 40
+status: burning
 }
 }},
 requirements: [
