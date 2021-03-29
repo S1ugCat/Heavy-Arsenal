@@ -12,19 +12,19 @@ cooldownLiquid: 2
 cooldownBrokenBase: 3
 category: effect
 requirements: [
- {item: titanium, amount: 1180}
- {item: thorium, amount: 750}
- {item: silicon, amount: 530}
- {item: nobil, amount: 350}
- {item: naturit, amount: 235}
- {item: kseno-alloy, amount: 120}
+ titanium/1180
+ thorium/750
+ silicon/530
+ nobil/350
+ naturit/235
+ kseno-alloy/120
     ]
 consumes: {
 power: 12
 items: {
 items: [ 
-{item: phase-fabric, amount: 2} 
-{item: nobil, amount: 4}
+phase-fabric/2
+nobil/4
 ],
 booster: true
 optional: false
