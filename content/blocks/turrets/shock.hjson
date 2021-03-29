@@ -1,5 +1,5 @@
 type: itemTurret
-name: Река
+name: нейрон
 description: Энергетическая пушка, стреляющаа залпом электрических патронов в наземных врагов
 targetAir: false
 targetGround: true
