@@ -1,6 +1,6 @@
 type: itemTurret
-name: Ураган
-description: скорострельная турель с разрывными снарядами
+name: Hurricane
+description: rapid-fire turret with explosive shells
 targetAir: true
 targetGround: true
 health: 3750
