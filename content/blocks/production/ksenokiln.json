@@ -1,6 +1,6 @@
 type: "GenericCrafter", 
-name: "Синтезатор ксено сплава", 
-description: "Синтезирует ксено сплав из нобиума, титана и ториума", 
+name: "Xeno Alloy Synthesizer", 
+description: "Synthesizes xeno alloy from nobium, titanium and thorium", 
 outputItem:
 {item:"kseno-alloy","amount":2}, 
 size: 4, 
