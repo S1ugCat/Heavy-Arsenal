@@ -1,5 +1,5 @@
 type: MassDriver
-name: Электромагнитная пушка
+name: Hyper Mass Driver
 description: Улучшеная версия Электромагнитной катопульты, работает на большей дестанции с той же эффективностью
 health: 1250
 requirements: [
