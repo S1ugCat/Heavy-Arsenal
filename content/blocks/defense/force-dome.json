@@ -1,6 +1,6 @@
 type: ForceProjector
-name: Силовой купол
-description: test
+name: Forse dome
+description: improved version of the forse projector
 size: 5
 health: 1750
 radius: 0
