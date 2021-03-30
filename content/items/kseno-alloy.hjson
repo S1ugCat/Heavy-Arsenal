@@ -1,6 +1,6 @@
 type: material
-name: ксено сплав
-description: материал способный замедлять или ускорять работу разных приборов
+name: Xeno alloy
+description: a material that can slow down or speed up the operation of various devices.
 cost: 5
 flammability: 0
 radioactivity: 1.8
