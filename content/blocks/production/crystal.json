@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: "Кристализатор", 
-description: "выращивает Натурит из кристализованой криогенной жидкости и кусочков Натурита в песке", 
+name: "Crystallizer", 
+description: "grows Naturite from crystallized cryogenic liquid and pieces of naturite in sand", 
 outputItem:
 {item:"naturit","amount":2}, 
 size: 4, 
