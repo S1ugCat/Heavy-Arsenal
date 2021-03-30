@@ -1,0 +1,44 @@
+type: itemTurret
+name: Протон
+description: Энергетическая пушка, стреляющаа большим электрических снарядом в наземных врагов
+targetAir: false
+targetGround: true
+health: 2660
+size: 6
+inaccuracy: 5
+reloadTime: 320
+recoil: 45
+alternate: true
+rotatespeed: 2
+shots: 1
+range: 260
+maxAmmo: 25
+ammoPerShot: 10
+consumes: {
+power: 5
+}
+ammoTypes: {
+  nobil: {
+type: BasicBulletType
+damage: 1150
+speed: 6
+lafetime: 100
+pierce: true
+width: 45
+height: 45
+ammoMultiplier: 1
+backColor: b8ecff
+frontColor: b8ecff
+}
+},
+requirements: [
+lead/2250
+thorium/1525
+silicon/1200
+nobil/770
+flameid/550
+plastanium/255
+]
+shootSound: shootBig
+category: turret
+research: fuse
