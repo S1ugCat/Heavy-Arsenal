@@ -1,6 +1,6 @@
 type: itemTurret
-name: Вирус
-description: турель со снарядом ослабляющим врага
+name: Virus
+description: a turret with a projectile that weakens the enemy
 targetAir: true
 targetGround: true
 health: 1500
