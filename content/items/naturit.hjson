@@ -1,6 +1,6 @@
 type: material
-name: натурит
-description: полуорганический меттал. Горючий, но твёрдый.
+name: naturite
+description: semi-organic mettal. Flammable, but solid.
 cost: 4
 flammability: 0.6
 radioactivity: 0.1
