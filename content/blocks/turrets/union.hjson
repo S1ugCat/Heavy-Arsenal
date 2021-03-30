@@ -1,6 +1,6 @@
 type: itemTurret
-name: Вихрь
-description: улучшеная версия Урагана
+name: Vortex
+description: improved version of the Hurricane
 targetAir: true
 targetGround: true
 health: 5500
