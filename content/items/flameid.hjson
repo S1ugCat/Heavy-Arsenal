@@ -1,5 +1,5 @@
 type: material
-name: flameid
+name: Flameid
 description: incredibly hard metal, able to stay hot almost always.
 cost: 6
 flammability: 0.1
