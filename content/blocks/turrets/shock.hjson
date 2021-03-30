@@ -1,6 +1,6 @@
 type: itemTurret
-name: нейрон
-description: Энергетическая пушка, стреляющаа залпом электрических патронов в наземных врагов
+name: Neuron
+description: An energy cannon that fires a volley of electric rounds at ground enemies
 targetAir: false
 targetGround: true
 health: 1870
