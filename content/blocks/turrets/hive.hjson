@@ -1,6 +1,6 @@
 type: itemTurret
-name: Улей
-description: Большоя ракетная установка
+name: Beehive
+description: Large rocket launcher
 targetAir: true
 targetGround: true
 health: 2750
