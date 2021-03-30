@@ -1,6 +1,6 @@
 type: itemTurret
-name: Поток
-description: улучшеная версия залпа
+name: Flow
+description: Improved version of the Salvo
 targetAir: true
 targetGround: true
 health: 3400
