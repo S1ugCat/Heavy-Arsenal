@@ -1,6 +1,6 @@
 type: itemTurret
-name: Река
-description: улучшеная версия Потока
+name: River
+description: improved version of the Flow
 targetAir: true
 targetGround: true
 health: 4750
