@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: "Расщепитель", 
-description: "отделяет нобиум от других метталов путём расщепления", 
+name: "splitter", 
+description: "separates nobium from other mettals by splitting", 
 outputItem:
 {item:"nobil","amount":1}, 
 size: 3, 
