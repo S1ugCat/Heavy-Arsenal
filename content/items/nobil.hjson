@@ -1,6 +1,6 @@
 type: material
-name: нобиум
-description: материал обладающий сильными магнитными свойствами
+name: Nobium
+description: a material with strong magnetic propertie.
 cost: 4
 flammability: 0
 radioactivity: 0.2
