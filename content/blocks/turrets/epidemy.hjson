@@ -1,6 +1,6 @@
 type: itemTurret
-name: Эпидемия
-description: турель стреляющая споровым снарядом ослабляющим врагов в области
+name: Epidemic
+description: a turret that fires a plant projectile that weakens enemies in the area
 targetAir: true
 targetGround: true
 health: 2350
