@@ -1,6 +1,6 @@
 type: itemTurret
-name: Протон
-description: Энергетическая пушка, стреляющаа большим электрических снарядом в наземных врагов
+name: Proton
+description: An energy cannon that fires a large electric projectile at ground enemies
 targetAir: false
 targetGround: true
 health: 2660
