@@ -1,6 +1,6 @@
 type: MassDriver
 name: Hyper Mass Driver
-description: Улучшеная версия Электромагнитной катопульты, работает на большей дестанции с той же эффективностью
+description: improved version of the Electromagnetic Catapult, works at a larger destination with the same efficiency
 health: 1250
 requirements: [
 titanium/450
