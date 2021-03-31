@@ -1,6 +1,6 @@
 type: ForceProjector
-name: Forse dome
-description: improved version of the forse projector
+name: Forse barrier
+description: Creates a large force barrier covering a large area. requires nibulium and phase fabric to work
 size: 5
 health: 1750
 radius: 0
