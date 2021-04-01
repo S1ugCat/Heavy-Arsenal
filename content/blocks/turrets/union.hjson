@@ -1,6 +1,6 @@
 type: itemTurret
 name: Vortex
-description: improved version of the Hurricane
+description: improved version of the Hurricane, more powerfull
 targetAir: true
 targetGround: true
 health: 5500
