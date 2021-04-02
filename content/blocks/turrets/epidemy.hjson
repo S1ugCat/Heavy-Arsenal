@@ -55,6 +55,6 @@ naturit/2250
 surge-alloy/1830
 kseno-alloy/1550
 ]
-shootSound: shootBig
+shootSound: plasmaboom
 category: turret
 research: fuse
