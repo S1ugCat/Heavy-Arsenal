@@ -39,6 +39,6 @@ nobil/770
 flameid/550
 plastanium/255
 ]
-shootSound: protonshot
+shootSound: protonShot
 category: turret
 research: fuse
