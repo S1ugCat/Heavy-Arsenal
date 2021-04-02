@@ -50,6 +50,6 @@ titanium/1125
 silicon/550
 nobil/225
 ]
-shootSound: shootBig
+shootSound: spark
 category: turret
 research: fuse
