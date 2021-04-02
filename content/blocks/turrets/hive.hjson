@@ -107,6 +107,6 @@ titanium/350
 thorium/200
 nobil/125
 ]
-shootSound: shootBig
+shootSound: missile
 category: turret
 research: fuse
