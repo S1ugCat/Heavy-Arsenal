@@ -1,0 +1,25 @@
+type: UnitFactory
+name: nobium Unit factory
+description: Creates improved combat units
+size: 3
+consumes: {
+  power: 3
+}
+plans: [
+  {
+unit: mirage
+requirements: [
+silicon/35
+nobil/15
+]
+time: 2100
+  }
+]
+requirements: [
+lead/235
+silicon/170
+plastanium/100
+nobil/75
+]
+category: units
+research: ground-factory

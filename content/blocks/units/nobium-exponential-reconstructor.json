@@ -1,0 +1,33 @@
+type: Reconstructor
+name: nobium exponential reconstructor
+description: improves combat units to tier 4
+size: 7
+consumes: {
+  power: 13
+  items: {
+    items: [
+  silicon/680
+  flameid/500
+  naturit/550
+]
+}
+	liquid: {
+    liquid: slag
+    amount: 0.5
+	}
+}
+constructTime: 6000
+upgrades: [
+[
+illusion, soothSayer
+]
+]
+requirements: [
+titanium/1600
+silicon/1250
+plastanium/880
+nobil/650
+flameid/375
+]
+category: units
+research: nobium-multiplicative-reconstructor
