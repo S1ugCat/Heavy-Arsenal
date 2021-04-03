@@ -1,0 +1,49 @@
+type: legs
+name: Mirage
+description: A tiny spider armed with rocket launchers
+speed: 0.8
+flying: false
+health: 210
+armor: 6
+rotatespeed: 0.6
+flying: false
+health: 160
+range: 200
+targetAir: true
+legCount: 6
+legMoveSpace: 1
+legPairOffset: 2
+legLength: 8
+legExstention: 0
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 10
+legSplashRange: 42
+allowLegStep: true
+weapons: [
+{
+     name: mirage-launcher
+     reload: 60
+     rotation: false
+     shots: 3
+     shootDelay: 15
+     shots: 3
+     mirror: true
+     rotate: false
+     x: 4
+     y: -1
+     spacing: 3
+     inaccuracy: 25
+     bullet: {
+type: missileBulletType
+widgh: 3
+Lenght: 2
+speed: 5
+lifetime: 40
+damage: 12
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+]
