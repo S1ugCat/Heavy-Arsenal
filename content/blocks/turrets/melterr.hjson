@@ -1,0 +1,51 @@
+name: Melter
+type: ItemTurret
+description: Fires five beams that melt the armor of opponents
+reloadTime: 360
+shootShake: 8
+range: 300
+recoilAmount: 12
+spread: 20
+shootCone: 60
+size: 6
+health: 3500
+shots: 5
+rotate: true
+shootSound: melterShoot
+requirements: [
+	lead/1550
+	silicon/1800
+	plastanium/1125
+	naturit/850
+        flameid/600
+] 
+ammoTypes: {
+	flameid: {
+   	type: ShrapnelBulletType
+        status: melting
+   	length: 350
+   	damage: 240
+   	width: 50
+   	serrationLenScl: 4
+   	serrationSpaceOffset: 28
+  	serrationFadeOffset: 12
+    serrations: 8
+    serrationWidth: 10
+    ammoMultiplier: 6
+    lifetime: 120
+    shootEffect: thoriumShoot
+    smokeEffect: sparkShoot
+    backColor: ea8878
+    frontColor: ea8878
+	}
+}
+consumes: {
+	liquid: {
+    liquid: slag
+    amount: 0.5
+    booster: false
+    optional: false
+	}
+}
+research: fuse
+category: turret
