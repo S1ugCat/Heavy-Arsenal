@@ -33,8 +33,8 @@ weapons: [
      shots: 8
      mirror: true
      rotate: false
-     x: 6
-     y: -6
+     x: 18
+     y: -8
      spacing: 3
      inaccuracy: 25
      bullet: {
