@@ -6,21 +6,22 @@ targetGround: true
 health: 2660
 size: 6
 inaccuracy: 5
-reloadTime: 320
+reloadTime: 160
 recoil: 45
 alternate: true
 rotatespeed: 2
 shots: 1
 range: 260
 maxAmmo: 25
-ammoPerShot: 10
+shoots: 5
+ammoPerShot: 2
 consumes: {
 power: 5
 }
 ammoTypes: {
   nobil: {
 type: BasicBulletType
-damage: 1150
+damage: 180
 speed: 6
 lafetime: 100
 pierce: true
