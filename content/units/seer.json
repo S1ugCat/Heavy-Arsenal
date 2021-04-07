@@ -25,22 +25,25 @@ legSplashRange: 24
 allowLegStep: true
 weapons: [
 {
-     name: seer-gun
-     reload: 90
+    name: mirage-launcher
+     reload: 60
      rotation: false
+     shots: 3
+     shootDelay: 15
+     shots: 8
      mirror: true
-     x: 18
-     y: -8
-     inaccuracy: 0
-     shootSound: shootBig
-     recoil: 12
+     rotate: false
+     x: 6
+     y: -6
+     spacing: 3
+     inaccuracy: 25
      bullet: {
-type: basicBulletType
-width: 25
-height: 45
-speed: 10
-lifetime: 30
-damage: 225
+type: missileBulletType
+widgh: 8
+Length: 8
+speed: 4
+lifetime: 80
+damage: 80
 backColor: ffffff
 frontColor: ffffff
 hitColor: ffffff
