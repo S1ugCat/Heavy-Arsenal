@@ -1,0 +1,13 @@
+type: stackConveyor
+name: Flameid conveyor
+description: carries a large number of items at a time
+health: 175
+speed: 0.2
+itemCapacity: 20
+requirements: [
+silicon/4
+plastanium/2
+flameid/1
+]
+category: distribution
+research: plastanium-conveyor
