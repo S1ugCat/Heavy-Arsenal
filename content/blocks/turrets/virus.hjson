@@ -6,7 +6,7 @@ targetGround: true
 health: 1500
 size: 3
 inaccuracy: 0
-reloadTime: 1600
+reloadTime: 1200
 recoil: 20
 rotatespeed: 3
 shots: 1
@@ -29,7 +29,7 @@ status: disarmed
 }
 },
 requirements: [
-titanium/859
+titanium/850
 silicon/600
 nobil/225
 surge-alloy/135
