@@ -1,5 +1,5 @@
 type: itemTurret
-name: Beehive
+name: Hive
 description: Large rocket launcher
 targetAir: true
 targetGround: true
