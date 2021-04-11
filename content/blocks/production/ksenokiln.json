@@ -24,12 +24,12 @@ liquid: "water" , amount: 1
 } 
 }, 
 requirements: [ 
- {item: lead, amount: 550} 
- {item: graphite, amount: 420}
- {item: titanium, amount: 670}
- {item: silicon, amount: 620}
- {item: nobil, amount: 250}
- {item: surge-alloy, amount: 150}
+ {item: lead, amount: 300} 
+ {item: graphite, amount: 180}
+ {item: titanium, amount: 160}
+ {item: silicon, amount: 125}
+ {item: nobil, amount: 100}
+ {item: surge-alloy, amount: 55}
 ] 
 category: crafting 
 research: purifier
