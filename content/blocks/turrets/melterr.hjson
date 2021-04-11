@@ -13,11 +13,11 @@ shots: 5
 rotate: true
 shootSound: melterShoot
 requirements: [
-	lead/1550
-	silicon/1800
-	plastanium/1125
-	naturit/850
-        flameid/600
+	lead/1250
+	silicon/1050
+	plastanium/855
+	naturit/645
+        flameid/440
 ] 
 ammoTypes: {
 	flameid: {
