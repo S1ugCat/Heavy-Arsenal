@@ -48,12 +48,12 @@ lighting: 100
 }
 },
 requirements: [
-copper/5570
-silicon/4300
-thorium/2660
-naturit/2250
-surge-alloy/1830
-kseno-alloy/1550
+copper/1550
+silicon/1350
+thorium/1055
+naturit/530
+surge-alloy/350
+kseno-alloy/150
 ]
 shootSound: plasmaboom
 category: turret
