@@ -23,10 +23,10 @@ liquid: "water" , amount: 1.7
 } 
 }, 
 requirements: [ 
- {item: copper, amount: 350} 
- {item: titanium, amount: 250}
- {item: silicon, amount: 200}
- {item: plastanium, amount: 150}
+ {item: copper, amount: 120} 
+ {item: titanium, amount: 120}
+ {item: silicon, amount: 100}
+ {item: plastanium, amount: 80}
 ] 
 category: crafting 
 research: plastanium-compressor
