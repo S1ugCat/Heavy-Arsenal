@@ -83,7 +83,7 @@ backColor: ffffff
 frontColor: ffffff
 fragBullet: {
 type: BasicBulletType
-damage: 60
+damage: 30
 speed: 1
 lafetime: 60
 width: 10
@@ -96,12 +96,12 @@ status: slow
 }
 }},
 requirements: [
-lead/3660
-titanium/2500
-thorium/1220
-nobil/1050
-kseno-alloy/835
-surge-alloy/650
+lead/1500
+titanium/1250
+thorium/1000
+nobil/670
+kseno-alloy/435
+surge-alloy/310
 ]
 shootSound: shootBig
 category: turret
