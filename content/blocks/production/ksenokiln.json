@@ -14,7 +14,7 @@ consumes: {
 power: 18
 items: { 
 items: [
-nobil/2
+flameid/2
 titanium/4
 thorium/3
 ] 
@@ -28,7 +28,7 @@ requirements: [
  {item: graphite, amount: 180}
  {item: titanium, amount: 160}
  {item: silicon, amount: 125}
- {item: nobil, amount: 100}
+ {item: flameid, amount: 100}
  {item: surge-alloy, amount: 55}
 ] 
 category: crafting 
