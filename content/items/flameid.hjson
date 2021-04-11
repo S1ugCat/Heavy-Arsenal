@@ -2,6 +2,7 @@ type: material
 name: Flameid
 description: incredibly hard metal, able to stay hot almost always.
 cost: 6
+hardness: 5
 flammability: 0.1
 radioactivity: 0.3
 color: ea8878
