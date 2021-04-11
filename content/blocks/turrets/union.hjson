@@ -103,12 +103,12 @@ status: burning
 }
 }},
 requirements: [
-copper/3855
-titanium/2250
-plastanium/1830
-naturit/1630
-flameid/1250
-surge-alloy/1200
+copper/1850
+titanium/1650
+plastanium/1250
+naturit/1025
+flameid/760
+surge-alloy/450
 ]
 shootSound: shootBig
 category: turret
