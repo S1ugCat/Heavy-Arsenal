@@ -26,7 +26,7 @@ allowLegStep: true
 weapons: [
 {
      name: soothSayer-gun
-     reload: 20
+     reload: 10
      rotation: false
      mirror: true
      x: 14
@@ -40,7 +40,7 @@ width: 15
 height: 33
 speed: 9
 lifetime: 40
-damage: 100
+damage: 50
 backColor: ffffff
 frontColor: ffffff
 hitColor: ffffff
