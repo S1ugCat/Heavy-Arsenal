@@ -17,7 +17,7 @@ consumes: {
     amount: 1.5
 	}
 }
-constructTime: 18000
+constructTime: 12000
 upgrades: [
 [
 soothSayer, seer
