@@ -12,12 +12,12 @@ cooldownLiquid: 2
 cooldownBrokenBase: 3
 category: effect
 requirements: [
- titanium/1180
- thorium/750
- silicon/530
- nobil/350
- naturit/235
- kseno-alloy/120
+ titanium/750
+ thorium/525
+ silicon/350
+ nobil/225
+ naturit/155
+ kseno-alloy/50
     ]
 consumes: {
 power: 12
