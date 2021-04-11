@@ -5,7 +5,7 @@ targetAir: false
 targetGround: true
 health: 2660
 size: 6
-inaccuracy: 5
+inaccuracy: 0
 reloadTime: 100
 recoil: 45
 alternate: true
