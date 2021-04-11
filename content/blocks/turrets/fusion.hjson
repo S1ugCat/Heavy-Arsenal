@@ -101,10 +101,10 @@ status: burning
 }
 }},
 requirements: [
-lead/1200
-titanium/835
-flameid/650
-naturit/455
+lead/800
+titanium/650
+flameid/355
+naturit/155
 ]
 shootSound: shootBig
 category: turret
