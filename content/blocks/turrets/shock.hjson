@@ -45,9 +45,9 @@ frontColor: b8ecff
 }
 },
 requirements: [
-lead/1200
-titanium/1125
-silicon/550
+lead/850
+titanium/650
+silicon/450
 nobil/225
 ]
 shootSound: spark
