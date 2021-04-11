@@ -24,7 +24,7 @@ allowLegStep: true
 weapons: [
 {
      name: illusion-gun
-     reload: 30
+     reload: 18
      rotation: false
      mirror: true
      x: 8
@@ -36,7 +36,7 @@ width: 11
 height: 22
 speed: 7
 lifetime: 40
-damage: 10
+damage: 14
 backColor: ffffff
 frontColor: ffffff
 hitColor: ffffff
