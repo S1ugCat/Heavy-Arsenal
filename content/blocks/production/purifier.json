@@ -19,7 +19,7 @@ copper/3
 ] 
 } 
 liquid: { 
-liquid: "water" , amount: 1.7
+liquid: "water" , amount: 1.2
 } 
 }, 
 requirements: [ 
