@@ -39,8 +39,8 @@ weapons: [
      inaccuracy: 25
      bullet: {
 type: missileBulletType
-widgh: 16
-Length: 16
+width: 25
+heigth: 25
 speed: 4
 lifetime: 80
 damage: 80
