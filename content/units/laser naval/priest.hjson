@@ -1,0 +1,67 @@
+name: priest
+description: tst
+type: naval
+health: 540
+speed: 3
+accel: 0.12
+rotateSpeed: 2.6
+drag: 0.5
+hitSize: 16
+armor: 3
+rotateShooting: true
+trailLength: 43
+trailX: 6
+trailY: 6
+trailScl: 0.5
+research: priest
+weapons: [
+      {
+    name: priest-arc
+    reload: 30
+    x: 0
+    y: -4
+    shootY: 0
+    shadow: 2
+    rotate: true
+    mirror: false
+    shots: 3
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: spark
+    bullet: {
+      type: lightningBulletType
+      width: 9
+      height: 100
+      damage: 5
+      lifetime: 20
+      colors: [84f491, 84f491, 84f491]
+      }
+      }
+{
+    name: priest-heal
+    reload: 30
+    x: -9
+    y: -4
+    shootY: 0
+    shadow: 2
+    rotate: true
+    shots: 3
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: lasershoot
+    bullet: {
+      type: missileBulletType
+      width: 6
+      height: 6
+      speed: 3
+      damage: 5
+      lifetime: 60
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 2
+      weaveMag: 2
+      }
+      }
+] 

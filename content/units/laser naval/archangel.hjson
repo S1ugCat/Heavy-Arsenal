@@ -1,0 +1,90 @@
+name: archangel
+description: tst
+type: naval
+health: 8400
+speed: 1.6
+accel: 0.12
+rotateSpeed: 1.4
+drag: 0.5
+hitSize: 32
+armor: 8
+rotateShooting: true
+trailLength: 20
+trailX: 30
+trailY: 30
+trailScl: 1
+research: angel
+weapons: [
+      {
+    name: archangel-laser-mount
+    reload: 320
+    x: 0
+    y: -8
+    shootY: 8
+    shadow: 2
+    rotate: true
+    mirror: false
+    shots: 3
+    shotDelay: 5
+    inaccuracy: 15
+    velocityRnd: 0.2
+    shootSound: laserblast
+    bullet: {
+      type: laserBulletType
+      width: 35
+      height: 200
+      damage: 225
+      lifetime: 20
+      colors: [84f491, 84f491, 84f491]
+      }
+      }
+{
+    name: archangel-heal
+    reload: 80
+    x: -21
+    y: -11
+    shootY: 0
+    shadow: 2
+    rotate: true
+    shots: 5
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: lasershoot
+    bullet: {
+      type: missileBulletType
+      width: 12
+      height: 12
+      speed: 3
+      damage: 10
+      lifetime: 80
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 6
+      weaveMag: 2
+      }
+      }
+      {
+    name: archangel-arc
+    reload: 20
+    x: 14
+    y: 8
+    shootY: 0
+    shadow: 2
+    rotate: true
+    mirror: true
+    shots: 5
+    inaccuracy: 10
+    velocityRnd: 0.2
+    shootSound: spark
+    bullet: {
+      type: lightningBulletType
+      width: 19
+      height: 140
+      damage: 2
+      lifetime: 5
+      colors: [84f491, 84f491, 84f491]
+      }
+      }
+] 

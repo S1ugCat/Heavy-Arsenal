@@ -1,0 +1,26 @@
+type: drill
+name: Percussion drill
+description: Powerfull drill
+size: 5 
+health: 420
+hasPower: true
+hasItems: true
+hasLiquid: true 
+itemCapacity: 30
+liquidCapacity: 60
+tier: 6
+drillTime: 225
+rotateSpeed: 7.5
+liquidBoostIntensity: 2.2
+consumes: { 
+power: 2.5
+}
+requirements: [ 
+ {item: lead, amount: 400} 
+ {item: thorium, amount: 250}
+ {item: silicon, amount: 200}
+ {item: nobil, amount: 160}
+ {item: naturit, amount: 140}
+] 
+category: production
+research: blast-drill

@@ -1,0 +1,97 @@
+name: cherubim
+description: tst
+type: naval
+health: 19800
+speed: 1.2
+accel: 0.12
+rotateSpeed: 1
+drag: 0.5
+hitSize: 38
+armor: 8
+rotateShooting: true
+trailLength: 20
+trailX: 38
+trailY: 12
+trailScl: 1
+research: archangel
+weapons: [
+      {
+    name: cherubim-beam
+    reload: 320
+    x: -22
+    y: 19
+    shootY: 8
+    shadow: 2
+    rotate: true
+    mirror: true
+    shots: 3
+    shotDelay: 5
+    inaccuracy: 15
+    velocityRnd: 0.2
+    shootSound: laserblast
+    bullet: {
+      type: laserBulletType
+      width: 35
+      height: 150
+      damage: 75
+      lifetime: 20
+      colors: [84f491, 84f491, 84f491]
+      }
+      }
+ {
+    name: cherubim-art
+    reload: 45
+    x: -38
+    y: -16
+    shootY: 17
+    shadow: 7
+    rotate: false
+    shots: 2
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: missile
+    bullet: {
+      type: missileBulletType
+      width: 12
+      height: 12
+      speed: 2.2
+      damage: 35
+      splashDamageRadius: 25
+      splashDamage: 123
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifetime: 200
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 8
+      weaveMag: 2
+      }
+      }
+  	{
+  	name: cherubim-laser
+        x: 0
+        y: -26
+        shootY: 2
+        healPercent: 22
+        collidesTeam: true
+        reload: 400
+        recoil: 10
+        rotate : true
+        shadow: 12
+        mirror: false
+        rotateSpeed: 0.7
+        shootSound: beam
+        alternate: true
+        continuous: true
+  	bullet: {
+    		type: continuousLaserBulletType
+                length: 250
+                width: 12
+                lifetime: 100
+                damage: 100
+                colors: [84f491, 84f491, 84f491]
+    		}
+  	}
+] 

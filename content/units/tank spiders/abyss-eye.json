@@ -1,0 +1,116 @@
+type: legs
+name: Abyss eye
+description: God of darkness
+speed: 0.4
+flying: false
+hovering: true
+health: 66600
+armor: 28
+hitSize: 45
+rotateSpeed: 1.2
+range: 340
+targetAir: true
+legCount: 8
+legMoveSpace: 2
+rippleScale: 2
+legPairOffset: 1
+legLength: 90
+visualElevation: 1
+immunities: [
+  disarmed
+]
+legExtension: -20
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 400
+legSplashRange: 24
+allowLegStep: true
+weapons: [
+{
+    name: abyss-eye-gun
+     reload: 30
+     shots: 1
+     shotDelay: 30
+     mirror: true
+     rotate: false
+     x: -26
+     y: -18
+     inaccuracy: 3
+     bullet: {
+type: missileBulletType
+width: 30
+height: 30
+speed: 4
+lifetime: 80
+damage: 40
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+fragBullets: 10
+fragBullet: {
+type: laserBulletType
+damage: 30
+lafetime: 10
+splashDamage: 20
+splashDamageRadius: 21
+pierce: true
+width: 40
+length: 120
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+}
+{
+     name: abyss-eye-sap
+     reload: 4
+     rotation: true
+     mirror: true
+     x: 18
+     y: 12
+     inaccuracy: 5
+     shootSound: shoot
+     recoil: 5
+     bullet: {
+type: sapBulletType
+width: 1
+length: 160
+lifetime: 20
+damage: 10
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+{
+  	name: abyss-eye-shrapnel
+  	x: 0
+  	y: -14
+  	shootY: -1
+  	reload: 180
+  	ejectEffect: none
+  	recoilAmount: 2
+        mirror: false
+  	rotate: true
+  	shootSound: melterShoot
+	alternate: true
+  	bullet: {
+    	type: ShrapnelBulletType
+    	length: 300
+    	damage: 1000
+    	width: 100
+    	lifeTime: 100
+    	serrationLenScl: 1
+    	serrationSpaceOffset: 1
+    	serrationFadeOffset: 0
+    	serrations: 3
+    	serrationWidth: 32
+    	fromColor: ffffff
+    	toColor: ffffff
+    	shootEffect: sparkShoot
+    	smokeEffect: sparkShoot
+    }
+  }
+]
+research: soothSayer

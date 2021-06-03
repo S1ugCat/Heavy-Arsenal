@@ -1,0 +1,78 @@
+type: legs
+name: soothsayer
+description: A large armored spider armed with powerful submachine guns, immune to disarming
+speed: 0.6
+flying: false
+hovering: true
+health: 8200
+armor: 13
+rotateSpeed: 0.8
+hitSize: 22
+range: 260
+targetAir: true
+legCount: 8
+legMoveSpace: 3
+rippleScale: 2
+legPairOffset: 1
+legLength: 25
+visualElevation: 1
+immunities: [
+  disarmed
+]
+legExtension: -14
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 34
+legSplashRange: 16
+allowLegStep: true
+weapons: [
+{
+     name: soothSayer-gun
+     reload: 90
+     rotation: false
+     mirror: true
+     x: 16
+     y: -8
+     shots: 3
+     shotDelay: 3
+     inaccuracy: 10
+     shootSound: laser
+     recoil: 5
+     bullet: {
+type: LaserBulletType
+length: 250
+width: 30
+lifetime: 40
+damage: 70
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+{
+     name: soothSayer-sap
+     reload: 10
+     rotation: false
+     shots: 2
+     shotDelay: 5
+     mirror: true
+     rotate: false
+     x: 12
+     y: 9
+     spacing: 3
+     inaccuracy: 5
+     bullet: {
+    type: sapBulletType
+    sapStrength: 0.95
+    length: 80
+    damage: 15
+    shootEffect: shootSmall
+    hitColor: ffffff
+    color: ffffff
+    width: 1
+    lifetime: 20
+    knockback: 1.2
+}
+}
+]
+research: illusion

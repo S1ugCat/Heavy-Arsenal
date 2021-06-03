@@ -1,0 +1,38 @@
+type: Reconstructor
+name: Colossal reconstructor
+description: Create perfect units
+size: 11
+consumes: {
+  power: 13
+  items: {
+    items: [
+  silicon/6750
+  flameid/3250
+  naturit/4000
+  kseno-alloy/2900
+]
+}
+	liquid: {
+    liquid: slag
+    amount: 5
+	}
+}
+constructTime: 24000
+upgrades: [
+[
+cherubim, seraphim
+]
+[
+seer, abyss-eye
+]
+]
+requirements: [
+titanium/3700
+silicon/2650
+phase-fabric/1500
+flameid/1155
+surge-alloy/795
+kseno-alloy/550
+]
+category: units
+research: nobium-tetrative-reconstructor

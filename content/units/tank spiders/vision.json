@@ -1,0 +1,49 @@
+type: legs
+name: vision
+description: a small spider unit armed with rocket launchers and submachine guns
+speed: 0.7
+flying: false
+hovering: true
+health: 630
+armor: 7
+rotatespeed: 0.5
+range: 250
+targetAir: true
+targetGround: true
+legCount: 6
+legMoveSpace: 2
+legPairOffset: 2
+legLength: 10
+legExstention: 0
+legBaseOffset: 1
+LandShake: 1
+legSplashDamage: 15
+legSplashRange: 8
+allowLegStep: true
+weapons: [
+{
+     name: vision-sap
+     reload: 5
+     rotation: false
+     shots: 1
+     mirror: true
+     rotate: false
+     x: -6
+     y: -3
+     spacing: 3
+     inaccuracy: 5
+     bullet: {
+    type: sapBulletType
+    sapStrength: 0.75
+    length: 100
+    damage: 7
+    shootEffect: shootSmall
+    hitColor: ffffff
+    color: ffffff
+    width: 1
+    lifetime: 10
+    knockback: 1.2
+}
+}
+]
+research: mirage

@@ -1,0 +1,32 @@
+type: Reconstructor
+name: Divide reconstructor
+description: improves combat units to tier 3
+size: 5
+consumes: {
+  power: 6.5
+  items: {
+    items: [
+  silicon/160
+  flameid/120
+  metaglass/80
+]
+}
+}
+constructTime: 2400
+upgrades: [
+[
+vision, illusion
+]
+[
+priest, angel
+]
+]
+requirements: [
+titanium/800
+silicon/650
+plastanium/400
+naturit/250
+flameid/175
+]
+category: units
+research: nobium-additive-reconstructor

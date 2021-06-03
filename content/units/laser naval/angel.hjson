@@ -1,0 +1,95 @@
+name: angel
+description: tst
+type: naval
+health: 920
+speed: 2
+accel: 0.12
+rotateSpeed: 1.8
+drag: 0.5
+hitSize: 22
+armor: 3
+rotateShooting: true
+trailLength: 43
+trailX: 6
+trailY: 6
+trailScl: 0.5
+research: monk
+weapons: [
+      {
+    name: angel-laser
+    reload: 160
+    x: 0
+    y: -4
+    shootY: 8
+    shadow: 2
+    rotate: true
+    mirror: false
+    shots: 3
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: laser
+    bullet: {
+      type: laserBulletType
+      width: 20
+      height: 100
+      damage: 60
+      lifetime: 20
+      colors: [84f491, 84f491, 84f491]
+      }
+      }
+{
+    name: big-angel-heal
+    reload: 80
+    x: -14
+    y: -8
+    shootY: 0
+    shadow: 2
+    rotate: true
+    shots: 5
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: lasershoot
+    bullet: {
+      type: missileBulletType
+      width: 10
+      height: 10
+      speed: 3
+      damage: 15
+      lifetime: 80
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 4
+      weaveMag: 2
+      }
+      }
+{
+    name: angel-heal
+    reload: 20
+    x: -11
+    y: 6
+    shootY: 0
+    shadow: 2
+    rotate: true
+    shots: 2
+    shotDelay: 5
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: lasershoot
+    bullet: {
+      type: missileBulletType
+      width: 5
+      height: 5
+      speed: 3
+      damage: 5
+      lifetime: 80
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 2
+      weaveMag: 1
+      }
+      }
+] 

@@ -1,0 +1,50 @@
+name: monk
+description: tst
+type: naval
+health: 140
+speed: 3.7
+accel: 0.12
+rotateSpeed: 3
+drag: 0.5
+hitSize: 12
+armor: 3
+rotateShooting: true
+trailLength: 43
+trailX: 3
+trailY: 3
+trailScl: 0.5
+canHeal: true
+research: unitFactory
+weapons: [
+      {
+    name: monk-heal
+    reload: 35
+    x: -9
+    y: -5
+    shootY: 0
+    shadow: 2
+    rotate: true
+    healPercent: 22
+    collidesTeam: true
+    shots: 2
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: lasershoot
+    bullet: {
+      type: missileBulletType
+      width: 9
+      height: 9
+      speed: 3
+      damage: 10
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifetime: 60
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 4
+      weaveMag: 1
+      }
+      }
+] 

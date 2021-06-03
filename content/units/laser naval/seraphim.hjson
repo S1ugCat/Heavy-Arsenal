@@ -1,0 +1,77 @@
+name: Seraphim
+description: King of seas
+type: naval
+health: 84000
+speed: 0.9
+accel: 0.12
+rotateSpeed: 0.6
+drag: 0.5
+hitSize: 56
+armor: 14
+immunities: [
+  disarmed
+]
+rotateShooting: true
+trailLength: 43
+trailX: 32
+trailY: 30
+trailScl: 1.6
+research: cherubim
+weapons: [
+      {
+    name: seraphim-art
+    reload: 45
+    x: -40
+    y: -22
+    shootY: 17
+    shadow: 7
+    rotate: false
+    shots: 4
+    shotDelay: 10
+    inaccuracy: 1.2
+    velocityRnd: 0.2
+    shootSound: missile
+    bullet: {
+      type: missileBulletType
+      width: 25
+      height: 25
+      speed: 2.2
+      damage: 65
+      splashDamageRadius: 25
+      splashDamage: 123
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      lifetime: 200
+      trailColor: 84f491
+      backColor: 84f491
+      frontColor: 84f491
+      weaveScale: 8
+      weaveMag: 2
+      }
+      }
+  	{
+  	name: seraphim-laser
+        x: 0
+        y: -26
+        shootY: 2
+        healPercent: 22
+        collidesTeam: true
+        reload: 1200
+        recoil: 10
+        rotate : true
+        shadow: 12
+        mirror: false
+        rotateSpeed: 0.7
+        shootSound: beam
+        alternate: true
+        continuous: true
+  	bullet: {
+    		type: continuousLaserBulletType
+                length: 450
+                width: 12
+                lifetime: 400
+                damage: 280
+                colors: [84f491, 84f491, 84f491]
+    		}
+  	}
+]

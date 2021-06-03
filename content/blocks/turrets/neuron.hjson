@@ -1,0 +1,55 @@
+type: itemTurret
+name: Neuron
+description: An energy cannon that fires a volley of electric rounds at ground enemies
+targetAir: false
+targetGround: true
+health: 1870
+size: 3
+inaccuracy: 5
+reloadTime: 120
+recoil: 35
+burstSpacing: 6
+alternate: true
+rotatespeed: 4
+shots: 4
+range: 180
+maxAmmo: 10
+ammoPerShot: 2
+consumes: {
+power: 5
+}
+ammoTypes: {
+  plastanium: {
+type: BasicBulletType
+damage: 40
+speed: 4
+lafetime: 600
+pierce: true
+width: 25
+height: 25
+ammoMultiplier: 1
+backColor: b8ecff
+frontColor: b8ecff
+}
+ thorium: {
+type: BasicBulletType
+damage: 60
+speed: 4
+lafetime: 600
+pierce: false
+width: 15
+height: 15
+ammoMultiplier: 1
+backColor: b8ecff
+frontColor: b8ecff
+}
+},
+requirements: [
+lead/850
+titanium/650
+silicon/450
+nobil/225
+]
+shootSound: spark
+category: turret
+research: lancer

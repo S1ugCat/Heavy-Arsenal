@@ -1,0 +1,73 @@
+type: legs
+name: illusion
+description: medium spider armed with submachine guns, immune to disarming
+hovering: true
+speed: 0.5
+flying: false
+health: 1150
+armor: 9
+hitSize: 12
+rotatespeed: 0.5
+range: 240
+targetAir: true
+legCount: 6
+legMoveSpace: 2
+legPairOffset: 2
+legLength: 12
+immunities: [
+  disarmed
+]
+legExstention: 0
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 23
+legSplashRange: 24
+allowLegStep: true
+weapons: [
+{
+     name: illusion-gun
+     reload: 180
+     rotation: false
+     mirror: true
+     shots: 3
+     shotDelay: 20
+     x: 8
+     y: -6
+     inaccuracy: 2 
+     shootSound: laser
+     bullet: {
+      type: laserBulletType
+      width: 20
+      height: 100
+      damage: 60
+      lifetime: 20
+      colors: [ffffff, ffffff, ffffff]
+      }
+}
+{
+   name: illusion-sap
+     reload: 20
+     rotation: false
+     shots: 2
+     shotDelay: 5
+     mirror: false
+     rotate: true
+     x: 0
+     y: -10
+     spacing: 3
+     inaccuracy: 5
+     bullet: {
+    type: sapBulletType
+    sapStrength: 0.95
+    length: 80
+    damage: 3
+    shootEffect: shootSmall
+    hitColor: ffffff
+    color: ffffff
+    width: 1
+    lifetime: 20
+    knockback: 1.2
+}
+}
+]
+research: vision

@@ -1,0 +1,20 @@
+type: MassDriver
+name: Hyper Mass Driver
+description: improved version of the Electromagnetic Catapult, works at a larger destination with the same efficiency
+health: 1250
+requirements: [
+titanium/450
+thorium/200
+nobil/100
+kseno-alloy/25
+    ],
+size: 5
+itemCapacity: 220
+reloadTime: 240
+range: 750
+consumes: {
+power: 5.5
+}
+category: distribution
+research: mass-driver
+

@@ -1,0 +1,29 @@
+type: ImpactReactor
+name: Force reactor
+description: test
+size: 7
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 35
+itemDuration: 45
+liquidCapacity: 90
+powerProduction: 500
+consumes: {
+  power: 60
+  liquid: slag/1
+  items: {
+  items: [
+  coldend/2
+  flameid/4
+]
+}
+}
+requirements: [
+  lead/3000
+  thorium/2250
+  flameid/1950
+  coldend/1550
+  kseno-alloy/850
+]
+category: power

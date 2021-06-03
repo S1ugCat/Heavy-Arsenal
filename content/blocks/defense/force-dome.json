@@ -1,0 +1,33 @@
+type: ForceProjector
+name: Force barrier
+description: Creates a large force barrier covering a large area. requires nibulium and phase fabric to work
+size: 5
+health: 1750
+radius: 0
+phaseRadiusBoost: 280
+phaseUseTime: 80
+breakage: 1200
+cooldownNormal: 3
+cooldownLiquid: 2
+cooldownBrokenBase: 3
+category: effect
+requirements: [
+ titanium/750
+ thorium/525
+ silicon/350
+ nobil/225
+ naturit/155
+ kseno-alloy/50
+    ]
+consumes: {
+power: 12
+items: {
+items: [ 
+phase-fabric/2
+nobil/4
+],
+booster: true
+optional: false
+        }
+	}
+research: force-projector

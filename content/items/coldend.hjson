@@ -1,0 +1,9 @@
+type: material
+name: Coldend
+description: Very cold material
+cost: 5
+hardness: 6
+flammability: 0
+radioactivity: 0
+color: 75dae1
+research: flameid

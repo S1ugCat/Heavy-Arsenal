@@ -1,0 +1,11 @@
+name: Kseno wall
+description: wall
+type: wall
+health: 1600
+size: 1
+requirements: [
+ kseno-alloy/8
+]
+category: defense
+research: plastanium-wall
+absorbLasers: true

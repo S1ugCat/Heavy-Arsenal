@@ -1,0 +1,11 @@
+name: Large kseno wall
+description: large wall
+type: wall
+health: 6400
+size: 2
+requirements: [
+ kseno-alloy/32
+]
+category: defense
+research: kseno-wall
+absorbLasers: true

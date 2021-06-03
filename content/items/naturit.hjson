@@ -1,0 +1,8 @@
+type: material
+name: Naturite
+description: semi-organic mettal. Flammable, but solid.
+cost: 4
+flammability: 0.6
+radioactivity: 0.1
+color: f2e878
+research: nobil

@@ -1,0 +1,35 @@
+type: "GenericCrafter", 
+name: "Xeno Alloy Synthesizer", 
+description: "Synthesizes xeno alloy from nobium, titanium and thorium", 
+outputItem:
+{item:"kseno-alloy","amount":2}, 
+size: 4, 
+hasPower: true, 
+hasItems: true, 
+hasLiquid: true, 
+craftTime: 60, 
+itemCapacity: 20
+updateEffect: none
+consumes: { 
+power: 18
+items: { 
+items: [
+flameid/2
+metaglass/4
+coldend/3
+] 
+} 
+liquid: { 
+liquid: "water" , amount: 0.2
+} 
+}, 
+requirements: [ 
+ {item: lead, amount: 300} 
+ {item: graphite, amount: 180}
+ {item: titanium, amount: 160}
+ {item: coldend, amount: 125}
+ {item: flameid, amount: 100}
+ {item: surge-alloy, amount: 55}
+] 
+category: crafting 
+research: purifier

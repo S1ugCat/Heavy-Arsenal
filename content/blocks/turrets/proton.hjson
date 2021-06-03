@@ -1,0 +1,44 @@
+type: itemTurret
+name: Proton
+description: An energy cannon that fires a large electric projectile at ground enemies
+targetAir: false
+targetGround: true
+health: 2660
+size: 6
+inaccuracy: 0
+reloadTime: 100
+recoil: 90
+alternate: true
+rotatespeed: 2
+shots: 3
+range: 260
+maxAmmo: 25
+ammoPerShot: 2
+consumes: {
+power: 5
+}
+ammoTypes: {
+  nobil: {
+type: BasicBulletType
+damage: 182
+speed: 6
+lafetime: 100
+pierce: true
+width: 45
+height: 45
+ammoMultiplier: 1
+backColor: b8ecff
+frontColor: b8ecff
+}
+},
+requirements: [
+lead/1650
+thorium/1325
+silicon/855
+nobil/650
+coldend/425
+plastanium/250
+]
+shootSound: protonShot
+category: turret
+research: neuron

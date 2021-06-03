@@ -1,0 +1,40 @@
+type: itemTurret
+name: Virus
+description: a turret with a projectile that weakens the enemy
+targetAir: true
+targetGround: true
+health: 1500
+size: 3
+inaccuracy: 0
+reloadTime: 340
+recoil: 20
+rotatespeed: 3
+shots: 1
+range: 250
+ammoPerShot: 3
+maxAmmo: 50
+ammoTypes: {
+spore-pod: {
+type: BasicBulletType
+speed: 5
+lifetime: 50
+pierce: false
+damage: 2
+width: 20
+height: 20
+ammoMultiplier: 1
+status: slow
+status: sapped
+status: disarmed
+statusDuration: 60
+}
+},
+requirements: [
+titanium/850
+silicon/600
+nobil/225
+surge-alloy/135
+]
+shootSound: shootBig
+category: turret
+research: parallax

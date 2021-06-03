@@ -1,0 +1,38 @@
+type: Reconstructor
+name: quintuple reconstructor
+description: improves combat units to tier 5
+size: 9
+consumes: {
+  power: 32
+  items: {
+    items: [
+  silicon/1200
+  flameid/750
+  kseno-alloy/600
+  naturit/850
+]
+}
+	liquid: {
+    liquid: slag
+    amount: 1.5
+	}
+}
+constructTime: 12000
+upgrades: [
+[
+soothSayer, seer
+]
+[
+archangel, cherubim
+]
+]
+requirements: [
+titanium/4000
+silicon/3500
+plastanium/2050
+naturit/1770
+flameid/1255
+kseno-alloy/750
+]
+category: units
+research: nobium-additive-reconstructor

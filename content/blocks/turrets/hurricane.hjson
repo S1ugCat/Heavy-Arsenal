@@ -1,0 +1,111 @@
+type: itemTurret
+name: Hurricane
+description: rapid-fire turret with explosive shells
+targetAir: true
+targetGround: true
+health: 3750
+size: 5
+inaccuracy: 10
+reloadTime: 4
+recoil: 16
+rotatespeed: 7
+shots: 1
+range: 180
+maxAmmo: 35
+ammoTypes: {
+titanium: {
+type: BasicBulletType
+speed: 10
+lifetime: 18
+pierce: true
+damage: 20
+width: 10
+height: 20
+ammoMultiplier: 2
+fragBullets: 4 
+fragBullet: {
+type: BasicBulletType
+speed: 10
+lifetime: 2
+pierce: true
+damage: 10
+width: 3
+height: 5
+}
+}
+naturit: {
+type: BasicBulletType
+speed: 15
+lifetime: 12
+pierce: true
+damage: 42
+width: 10
+height: 25
+ammoMultiplier: 4
+fragBullets: 4 
+fragBullet: {
+type: BasicBulletType
+speed: 10
+lifetime: 4
+pierce: true
+damage: 7
+width: 3
+height: 5
+}
+}
+nobil: {
+type: BasicBulletType
+speed: 20
+lifetime: 9
+pierce: true
+damage: 52
+width: 15
+height: 30
+ammoMultiplier: 5
+homingPower: 0.2
+fragBullets: 4 
+fragBullet: {
+type: BasicBulletType
+speed: 10
+lifetime: 5
+pierce: true
+damage: 5
+width: 3
+height: 5
+}
+}
+flameid: {
+type: BasicBulletType
+speed: 20
+lifetime: 9
+pierce: false
+damage: 32
+width: 12
+height: 25
+ammoMultiplier: 3
+backColor: ea8878
+frontColor: ea8878
+status: burning
+fragBullets: 3
+fragBullet: {
+type: BasicBulletType
+speed: 10
+lifetime: 4
+pierce: true
+damage: 6
+width: 3
+height: 5
+backColor: ea8878
+frontColor: ea8878
+status: burning
+}
+}},
+requirements: [
+lead/800
+titanium/650
+flameid/355
+naturit/155
+]
+shootSound: shootBig
+category: turret
+research: cyclone

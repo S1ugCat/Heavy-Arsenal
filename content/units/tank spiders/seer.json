@@ -1,0 +1,88 @@
+type: legs
+name: Seer
+description: A huge armored spider armed with submachine guns and powerful cannons, immune to disarming
+speed: 0.5
+flying: false
+hovering: true
+health: 16000
+armor: 19
+hitSize: 30
+rotateSpeed: 0.8
+range: 340
+targetAir: true
+legCount: 8
+legMoveSpace: 3
+rippleScale: 2
+legPairOffset: 1
+legLength: 60
+visualElevation: 1
+immunities: [
+  disarmed
+]
+legExtension: -20
+legBaseOffset: 0
+LandShake: 1
+legSplashDamage: 120
+legSplashRange: 24
+allowLegStep: true
+weapons: [
+{
+    name: seer-gun
+     reload: 180
+     shootDelay: 15
+     shots: 3
+     shotDelay: 30
+     mirror: true
+     rotate: false
+     x: 18
+     y: -8
+     inaccuracy: 3
+     bullet: {
+type: missileBulletType
+width: 20
+height: 20
+speed: 4
+lifetime: 80
+damage: 40
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+fragBullets: 5
+fragBullet: {
+type: laserBulletType
+damage: 10
+lafetime: 10
+splashDamage: 20
+splashDamageRadius: 21
+pierce: false
+width: 10
+length: 70
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+}
+{
+     name: seer-sap
+     reload: 4
+     rotation: true
+     mirror: true
+     x: 12
+     y: 6
+     inaccuracy: 5
+     shootSound: shoot
+     recoil: 5
+     bullet: {
+type: sapBulletType
+width: 1
+length: 120
+lifetime: 20
+damage: 3
+backColor: ffffff
+frontColor: ffffff
+hitColor: ffffff
+}
+}
+]
+research: soothSayer

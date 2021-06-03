@@ -1,0 +1,67 @@
+type: itemTurret
+name: Flow
+description: Improved version of the Salvo
+targetAir: true
+targetGround: true
+health: 3400
+size: 5
+inaccuracy: 2
+reloadTime: 40
+recoil: 25
+burstSpacing: 2.5
+alternate: true
+rotatespeed: 7
+shots: 7
+range: 240
+maxAmmo: 50
+ammoTypes: {
+plastanium: {
+type: BasicBulletType
+damage: 20
+speed: 6
+lafetime: 30
+splashDamage: 35
+splashDamageRadius: 20
+pierce: false
+width: 10
+height: 20
+ammoMultiplier: 2
+backColor: ffffff
+frontColor: ffffff
+}
+nobil: {
+type: BasicBulletType
+damage: 46
+speed: 9
+lafetime: 8
+pierce: false
+width: 15
+height: 25
+ammoMultiplier: 3
+homingPower: 0.2
+homingrange: 40
+backColor: ffffff
+frontColor: ffffff
+}
+naturit: {
+type: BasicBulletType
+damage: 56
+speed: 5
+lafetime: 36
+pierce: true
+width: 20
+height: 30
+ammoMultiplier: 5
+pierce: false
+backColor: ffffff
+frontColor: ffffff
+}},
+requirements: [
+copper/800
+titanium/450
+thorium/300
+nobil/250
+]
+shootSound: shootBig
+category: turret
+research: salvo
