@@ -1,6 +1,6 @@
 type: ImpactReactor
 name: Force reactor
-description: test
+description: The most powerful reactor generating a huge amount of energy, consumes a large amount of energy to start.
 size: 7
 hasPower: true
 hasItems: true
