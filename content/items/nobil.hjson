@@ -1,8 +1,0 @@
-type: material
-name: Nobium
-description: a material with strong magnetic propertie.
-cost: 4
-flammability: 0
-radioactivity: 0.2
-color: ffffff
-research: surge-alloy

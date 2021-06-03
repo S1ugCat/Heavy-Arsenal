@@ -1,8 +1,0 @@
-type: material
-name: Xeno alloy
-description: a material that can slow down or speed up the operation of various devices.
-cost: 5
-flammability: 0
-radioactivity: 1.8
-color: 99f2c7
-research: nobil
