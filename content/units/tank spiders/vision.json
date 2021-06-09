@@ -1,6 +1,6 @@
 type: legs
 name: vision
-description: a small spider unit armed with rocket launchers and submachine guns
+description: Shoots exhausting laser beams at high speed. Able to walk on buildings
 speed: 0.7
 flying: false
 hovering: true
