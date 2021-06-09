@@ -1,5 +1,5 @@
 name: angel
-description: tst
+description: Fires missiles and laser beams. Water unit
 type: naval
 health: 920
 speed: 2
