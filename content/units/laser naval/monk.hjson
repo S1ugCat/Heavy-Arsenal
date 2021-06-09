@@ -1,5 +1,5 @@
 name: monk
-description: tst
+description: Fires weak missiles. Water unit
 type: naval
 health: 140
 speed: 3.7
