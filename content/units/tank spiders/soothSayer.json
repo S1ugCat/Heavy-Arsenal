@@ -1,6 +1,6 @@
 type: legs
 name: soothsayer
-description: A large armored spider armed with powerful submachine guns, immune to disarming
+description: Fires a volley of lasers and drains enemies. Able to walk on buildings
 speed: 0.6
 flying: false
 hovering: true
