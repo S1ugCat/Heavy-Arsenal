@@ -1,6 +1,6 @@
 type: legs
 name: Mirage
-description: A tiny spider armed with rocket launchers
+description: Fires small, draining laser beams. Able to walk on buildings
 speed: 0.8
 flying: false
 health: 210
