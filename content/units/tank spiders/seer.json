@@ -1,6 +1,6 @@
 type: legs
 name: Seer
-description: A huge armored spider armed with submachine guns and powerful cannons, immune to disarming
+description: Launches laser missiles and drains enemies. Able to walk on buildings
 speed: 0.5
 flying: false
 hovering: true
