@@ -1,6 +1,6 @@
 type: legs
 name: Abyss eye
-description: God of darkness
+description: Launches powerful laser missiles, drains enemies, and shoots shrapnel through enemies. Able to walk on buildings
 speed: 0.4
 flying: false
 hovering: true
