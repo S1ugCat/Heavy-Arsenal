@@ -57,7 +57,7 @@ weapons: [
         shootY: 2
         healPercent: 22
         collidesTeam: true
-        reload: 1200
+        reload: 800
         recoil: 10
         rotate : true
         shadow: 12
@@ -71,7 +71,7 @@ weapons: [
                 length: 450
                 width: 12
                 lifetime: 400
-                damage: 280
+                damage: 170
                 colors: [84f491, 84f491, 84f491]
     		}
   	}
