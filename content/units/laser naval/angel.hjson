@@ -4,7 +4,7 @@ type: naval
 health: 920
 speed: 3
 accel: 0.12
-rotateSpeed: 1.8
+rotateSpeed: 2.6
 drag: 0.5
 hitSize: 22
 armor: 3
