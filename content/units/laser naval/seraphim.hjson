@@ -8,6 +8,7 @@ rotateSpeed: 1.8
 drag: 0.5
 hitSize: 56
 armor: 14
+rotateShooting: true
 immunities: [
   disarmed
 ]
