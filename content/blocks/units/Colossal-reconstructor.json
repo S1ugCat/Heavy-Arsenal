@@ -2,6 +2,7 @@ type: Reconstructor
 name: Colossal reconstructor
 description: Create perfect units
 size: 11
+liquidCapacity: 120
 consumes: {
   power: 13
   items: {
