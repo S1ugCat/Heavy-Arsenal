@@ -2,7 +2,7 @@ name: cherubim
 description: Fires rockets and large lasers. Water unit
 type: naval
 health: 19800
-speed: 1.2
+speed: 2.3
 accel: 0.12
 rotateSpeed: 1
 drag: 0.5
