@@ -2,7 +2,7 @@ name: priest
 description: Fires rockets and electric arcs. Water unit
 type: naval
 health: 540
-speed: 3
+speed: 3.4
 accel: 0.12
 rotateSpeed: 2.6
 drag: 0.5
