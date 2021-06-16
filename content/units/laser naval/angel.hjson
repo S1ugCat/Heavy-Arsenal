@@ -2,7 +2,7 @@ name: angel
 description: Fires missiles and laser beams. Water unit
 type: naval
 health: 920
-speed: 2
+speed: 3
 accel: 0.12
 rotateSpeed: 1.8
 drag: 0.5
