@@ -26,8 +26,8 @@ pierce: false
 width: 10
 height: 20
 ammoMultiplier: 2
-backColor: ffffff
-frontColor: ffffff
+backColor: 74b371
+frontColor: c2ffbf
 }
 nobil: {
 type: BasicBulletType
@@ -40,7 +40,7 @@ height: 25
 ammoMultiplier: 3
 homingPower: 0.2
 homingrange: 40
-backColor: ffffff
+backColor: bfbfbf
 frontColor: ffffff
 }
 naturit: {
@@ -53,8 +53,8 @@ width: 20
 height: 30
 ammoMultiplier: 5
 pierce: false
-backColor: ffffff
-frontColor: ffffff
+backColor: d89f6b
+frontColor: f2e878
 }},
 requirements: [
 copper/800
