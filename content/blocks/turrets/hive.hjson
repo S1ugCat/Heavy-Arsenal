@@ -11,7 +11,7 @@ xRand: 8
 recoil: 15
 burstSpacing: 2.5
 alternate: true
-rotatespeed: 8
+rotateSpeed: 4
 shots: 15
 range: 260
 maxAmmo: 25
