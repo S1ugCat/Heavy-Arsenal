@@ -1,7 +1,7 @@
 type: legs
 name: Mirage
 description: Fires small, draining laser beams. Able to walk on buildings
-speed: 3
+speed: 2
 flying: false
 health: 210
 armor: 6
