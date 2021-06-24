@@ -10,7 +10,6 @@ shootCone: 60
 size: 7
 health: 4200
 shots: 5
-rotate: true
 shootSound: melterShoot
 requirements: [
 	lead/1250
