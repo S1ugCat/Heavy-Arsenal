@@ -43,9 +43,11 @@ height: 30
 speed: 4
 lifetime: 80
 damage: 40
-backColor: ffffff
+trailColor: ffffff
+backColor: bfbfbf
 frontColor: ffffff
 hitColor: ffffff
+sprite: pulse
 fragBullets: 10
 fragBullet: {
 type: laserBulletType
