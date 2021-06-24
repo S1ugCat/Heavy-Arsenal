@@ -35,7 +35,7 @@ fragBullet: {
 type: BasicBulletType
 speed: 2
 lifetime: 35
-backColor: 665c9f
+backColor: 463b87
 frontColor: 665c9f
 pierce: true
 damage: 1
@@ -44,7 +44,7 @@ height: 10
 status: slow
 status: sapped
 status: disarmed
-statusDuration: 90
+statusDuration: 40
 lighting: 100
 }
 }
@@ -69,8 +69,9 @@ fragBullet: {
 type: BasicBulletType
 speed: 2
 lifetime: 35
-backColor: 665c9f
-frontColor: 665c9f
+statusDuration: 80
+backColor: d89f6b
+frontColor: f2e878
 pierce: true
 damage: 1
 width: 10
@@ -78,7 +79,6 @@ height: 10
 status: slow
 status: sapped
 status: disarmed
-statusDuration: 90
 lighting: 100
 }
 }
