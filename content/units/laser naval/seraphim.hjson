@@ -2,7 +2,7 @@ name: Seraphim
 description: Launches missiles and fires an incredibly powerful laser that destroys everything that falls under it. Water unit
 type: naval
 health: 84000
-speed: 2
+speed: 0.6
 accel: 0.12
 rotateSpeed: 1.8
 drag: 0.5
