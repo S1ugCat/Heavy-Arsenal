@@ -8,7 +8,7 @@ size: 7
 inaccuracy: 10
 reloadTime: 3
 recoil: 16
-rotatespeed: 5
+rotateSpeed: 3.5
 shots: 5
 shotWidth: 4
 range: 240
