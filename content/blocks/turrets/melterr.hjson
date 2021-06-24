@@ -36,8 +36,7 @@ ammoTypes: {
     lifetime: 80
     shootEffect: thoriumShoot
     smokeEffect: sparkShoot
-    backColor: ea8878
-    frontColor: ea8878
+    colors: [ea8878, ea8878, ea8878]
 	}
 }
 consumes: {
