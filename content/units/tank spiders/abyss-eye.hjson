@@ -1,7 +1,7 @@
 type: legs
 name: Abyss eye
 description: Launches powerful laser missiles, drains enemies, and shoots shrapnel through enemies. Able to walk on buildings
-speed: 0.8
+speed: 0.4
 flying: false
 hovering: true
 health: 66600
