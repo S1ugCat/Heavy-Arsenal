@@ -34,7 +34,8 @@ fragBullets: 32
 fragBullet: {
 type: BasicBulletType
 speed: 2
-lifetime: 35
+lifetime: 70
+statusDuration: 10
 backColor: 463b87
 frontColor: 665c9f
 pierce: true
@@ -44,8 +45,7 @@ height: 10
 status: slow
 status: sapped
 status: disarmed
-statusDuration: 40
-lighting: 100
+drag: 0.04
 }
 }
 naturit: {
@@ -56,6 +56,7 @@ pierce: false
 damage: 1
 width: 20
 height: 20
+knockback: 2
 ammoMultiplier: 2
 status: slow
 status: sapped
@@ -68,8 +69,8 @@ fragBullets: 32
 fragBullet: {
 type: BasicBulletType
 speed: 2
-lifetime: 35
-statusDuration: 80
+lifetime: 100
+statusDuration: 50
 backColor: d89f6b
 frontColor: f2e878
 pierce: true
@@ -79,7 +80,7 @@ height: 10
 status: slow
 status: sapped
 status: disarmed
-lighting: 100
+drag: 0.04
 }
 }
 },
