@@ -48,7 +48,7 @@ trailColor: ffffff
 backColor: bfbfbf
 frontColor: ffffff
 hitColor: ffffff
-sprite: pulse
+sprite: "pulse"
 fragBullets: 5
 fragBullet: {
 type: laserBulletType
