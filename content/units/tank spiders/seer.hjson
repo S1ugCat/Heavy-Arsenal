@@ -1,7 +1,7 @@
 type: legs
 name: Seer
 description: Launches laser missiles and drains enemies. Able to walk on buildings
-speed: 1
+speed: 0.6
 flying: false
 hovering: true
 health: 16000
