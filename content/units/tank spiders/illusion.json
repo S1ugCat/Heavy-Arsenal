@@ -2,12 +2,12 @@ type: legs
 name: illusion
 description: Fires draining laser beams and powerful lasers. Able to walk on buildings
 hovering: true
-speed: 0.5
+speed: 1.5
 flying: false
 health: 1150
 armor: 9
 hitSize: 12
-rotatespeed: 0.5
+rotatespeed: 3
 range: 240
 targetAir: true
 legCount: 6
