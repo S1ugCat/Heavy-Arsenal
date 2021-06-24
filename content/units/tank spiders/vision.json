@@ -1,12 +1,12 @@
 type: legs
 name: vision
 description: Shoots exhausting laser beams at high speed. Able to walk on buildings
-speed: 0.7
+speed: 3
 flying: false
 hovering: true
 health: 630
 armor: 7
-rotatespeed: 0.5
+rotatespeed: 3
 range: 250
 targetAir: true
 targetGround: true
