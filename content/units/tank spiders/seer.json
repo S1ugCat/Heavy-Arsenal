@@ -1,13 +1,13 @@
 type: legs
 name: Seer
 description: Launches laser missiles and drains enemies. Able to walk on buildings
-speed: 0.5
+speed: 1
 flying: false
 hovering: true
 health: 16000
 armor: 19
 hitSize: 30
-rotateSpeed: 0.8
+rotateSpeed: 2.4
 range: 340
 targetAir: true
 legCount: 8
