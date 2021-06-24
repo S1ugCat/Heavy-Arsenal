@@ -2,7 +2,7 @@ name: monk
 description: Fires weak missiles. Water unit
 type: naval
 health: 140
-speed: 3.7
+speed: 1.5
 accel: 0.12
 rotateSpeed: 3
 drag: 0.5
