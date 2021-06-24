@@ -10,7 +10,7 @@ reloadTime: 120
 recoil: 35
 burstSpacing: 3
 alternate: true
-rotatespeed: 4
+rotateSpeed: 2.5
 shots: 15
 range: 320
 maxAmmo: 50
