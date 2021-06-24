@@ -27,7 +27,7 @@ status: slow
 status: sapped
 status: disarmed
 statusDuration: 80
-backColor: 665c9f
+backColor: 463b87
 frontColor: 665c9f
 lighting: 100
 fragBullets: 32
@@ -44,7 +44,7 @@ height: 10
 status: slow
 status: sapped
 status: disarmed
-statusDuration: 80
+statusDuration: 90
 lighting: 100
 }
 }
