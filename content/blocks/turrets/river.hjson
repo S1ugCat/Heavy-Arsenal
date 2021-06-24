@@ -24,8 +24,8 @@ pierce: false
 width: 10
 height: 20
 ammoMultiplier: 2
-backColor: ffffff
-frontColor: ffffff
+backColor: 74b371
+frontColor: c2ffbf
 fragBullets: 6
 fragBullet: {
 type: BasicBulletType
@@ -34,8 +34,8 @@ speed: 4
 lafetime: 5
 width: 10
 height: 10
-backColor: ffffff
-frontColor: ffffff
+backColor: 74b371
+frontColor: c2ffbf
 pierce: true
 homingPower: 0.05
 }
@@ -49,7 +49,7 @@ pierce: false
 width: 15
 height: 25
 ammoMultiplier: 3
-backColor: ffffff
+backColor: bfbfbf
 frontColor: ffffff
 homingPower: 0.1
 homingrange: 80
@@ -60,7 +60,7 @@ speed: 2
 lafetime: 20
 width: 10
 height: 10
-backColor: ffffff
+backColor: bfbfbf
 frontColor: ffffff
 pierce: true
 homingPower: 0.2
@@ -77,8 +77,8 @@ height: 30
 ammoMultiplier: 5
 status: slow
 pierce: false
-backColor: ffffff
-frontColor: ffffff
+backColor: 66bca0
+frontColor: b3ffe7
 fragBullet: {
 type: BasicBulletType
 damage: 18
@@ -86,8 +86,8 @@ speed: 1
 lafetime: 60
 width: 10
 height: 10
-backColor: ffffff
-frontColor: ffffff
+backColor: 66bca0
+frontColor: b3ffe7
 pierce: false
 homingPower: 0.05
 status: slow
