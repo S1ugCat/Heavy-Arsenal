@@ -22,8 +22,8 @@ damage: 20
 width: 10
 height: 20
 ammoMultiplier: 2
-backColor: d37fe2
-frontColor: d37fe2
+backColor: 877fe2
+frontColor: 877fe2
 fragBullets: 4 
 fragBullet: {
 type: BasicBulletType
@@ -31,8 +31,8 @@ speed: 10
 lifetime: 2
 pierce: true
 damage: 10
-backColor: d37fe2
-frontColor: d37fe2
+backColor: 877fe2
+frontColor: 877fe2
 width: 3
 height: 5
 }
