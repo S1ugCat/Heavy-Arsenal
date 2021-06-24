@@ -1,7 +1,7 @@
 type: legs
 name: soothsayer
 description: Fires a volley of lasers and drains enemies. Able to walk on buildings
-speed: 1
+speed: 0.8
 flying: false
 hovering: true
 health: 8200
