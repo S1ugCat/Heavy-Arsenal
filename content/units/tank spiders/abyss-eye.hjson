@@ -47,7 +47,7 @@ trailColor: ffffff
 backColor: bfbfbf
 frontColor: ffffff
 hitColor: ffffff
-sprite: "pulse"
+sprite: Heavy-Arsenal-pulse
 fragBullets: 10
 fragBullet: {
 type: laserBulletType
